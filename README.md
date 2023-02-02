@@ -17,7 +17,7 @@ Score ![92 points out of 100](92-out-of-100.png) in [adblock-tester.com test](ht
 
 ## Uninstallation
 
-* Replace your computer's <code>HOSTS</code> file with one of the backups (found in the Backups folder inside the <code>adblock*.exe</code> directory) of your choice (the backup file named <code>hosts0001.backup.txt</code> contains the version of the <code>HOSTS</code> file that was found by <code>adblock*.exe</code> on installation; if you hadn't made any other modifications, this will be the original copy of your <code>HOSTS</code>). **Notes**:
+* Replace your computer's <code>HOSTS</code> file with one of the backups (found in the Backups folder inside the <code>adblock*.exe</code> directory) of your choice. **Notes**:
   * The <code>HOSTS</code> file will be:
     * in the <code>C:\Windows\System32\drivers\etc</code> or <code>C:\WinNT\System32\drivers\etc</code> directory for Windows NT 3 and up (including Windows XP, Vista, 7, 8(.1), 10 and 11).
     * in the <code>C:\Windows</code> directory for previous Windows versions with networking capabilities (including Windows 95 and other DOS-bootstrapped Windows versions, such as Windows 98 and ME).
