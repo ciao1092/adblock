@@ -93,7 +93,7 @@ namespace adblock
                 Console.WriteLine();
 
                 Console.WriteLine("Starting to Install server list. ");
-                const string serverListUrl = "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts" /*"https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt"*/;
+                const string serverListUrl = "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt";
                 Console.Write("Fetching adserver list . . . ({0}) ", serverListUrl);
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.ResetColor();
