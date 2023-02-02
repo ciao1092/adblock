@@ -10,6 +10,7 @@
     <p>Simple C# program that modifies the HOSTS file to block known advertising servers.</p>
     <p>Score <img src="https://raw.githubusercontent.com/ciao1092/adblock/main/92-out-of-100.png" alt="92 points out of 100"> in <a href="https://adblock-tester.com/" target="_blank">adblock-tester.com test</a> (Contextual advertising + Analytics Tools + Error Monitoring test -- this program does not block images and GIFs from webpages, because that would block ALL images: to decide which images should be blocked is browser- and website-related. That&#39;s why Banner Test was disabled).</p>
     <h2>Installation</h2>
+    <p style="color:red">Before using this program, read the LICENSE file, in the root of the repository!</p>
     <ul>
       <li>Download the latest file (<code>x86</code> or <code>x64</code>, depending on your PC) in the Releases section (on the right of repository&#39;s homepage on <a href="https://github.com/ciao1092/adblock/">GitHub</a>)</li>
       <li>Open it to install a list of known advertising servers that will be blocked. <strong>Notes</strong>:
