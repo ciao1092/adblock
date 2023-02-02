@@ -60,12 +60,16 @@ namespace adblock
                     backupFileName = "hosts" + i.ToString("0000") + ".backup.txt";
                     if (File.Exists(Path.Combine(new string[] { backupLocation, backupFileName })))
                     {
-                        //Console.WriteLine("File {0} already exists. ", backupFileName);
+#if DEBUG
+                        Console.WriteLine("File {0} already exists. ", backupFileName);
+#endif
                         continue;
                     }
                     else
                     {
-                        //Console.WriteLine("File {0} does not exist. ", backupFileName);
+#if DEBUG
+                        Console.WriteLine("File {0} does not exist. ", backupFileName);
+#endif
                         break;
                     }
                 }
