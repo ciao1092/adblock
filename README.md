@@ -29,7 +29,7 @@
             <li>in the <code>C:\Windows</code> directory for previous Windows versions with networking capabilities (including Windows 95 and other DOS-bootstrapped Windows versions, such as Windows 98 and ME).</li>
           </ul>
         </li>
-        <li>The <code>Backups</code> folder is located in the same folder <code>adblock.exe</code> is, and is created by <code>adblock.exe</code> upon installation; <code>adblock.exe</code> creates backups of the <code>HOSTS</code> file every time it makes modifications to it and stores them in the <code>Backups</code> folder. Hence the <code>Backups\hosts0001.backup.txt</code> file contains the versions of the <code>HOSTS</code> file found by <code>adblock.exe</code> at the time of installation.</li>
+        <li>The <code>Backups</code> folder is located in the same folder <code>adblock.exe</code> is, and is created by <code>adblock.exe</code> upon installation; <code>adblock.exe</code> creates backups of the <code>HOSTS</code> file every time it makes modifications to it and stores them in the <code>Backups</code> folder. Hence the <code>Backups\hosts0001.backup.txt</code> file contains the version of the <code>HOSTS</code> file found by <code>adblock.exe</code> at the time of installation.</li>
         <li>To edit the <code>HOSTS</code> file, you can run <code>notepad.exe</code> as Administrator and open the file through <strong><em>File</em></strong> --&gt; <strong><em>Open</em></strong>. You can delete <code>HOSTS</code> content (know what you&#39;re doing!!) and replace it with backup file&#39;s content.</li>
       </ul>
       <li>Delete the <code>adblock.exe</code> file you downloaded earlier.</li>
